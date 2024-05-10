@@ -26,8 +26,8 @@ keymap.set("n", "<C-H>", ":bprevious<CR>")
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
-
-local builtin = require('telescope.builtin')   keymap 不应该在这里
+--------------------------telescope
+local builtin = require('telescope.builtin') 
 
 -- 进入telescope页面会是插入模式，回到正常模式就可以用j和k来移动了
 
