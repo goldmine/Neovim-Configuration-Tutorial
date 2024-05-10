@@ -43,8 +43,9 @@ local plugins = {
   "lewis6991/gitsigns.nvim", -- 左则git提示
 
   {
-    'nvim-telescope/telescope.nvim', tag = '0.1.1', -- 文件检索
-    dependencies = { {'nvim-lua/plenary.nvim'} } -- requires要改为dependencies
+    'nvim-telescope/telescope.nvim', tag = '0.1.6', -- 文件检索
+    --dependencies = { {'nvim-lua/plenary.nvim'} } 这里有问题
+    dependencies = { 'nvim-lua/plenary.nvim' }
   },
 
 }
